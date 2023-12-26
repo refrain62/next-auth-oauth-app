@@ -1,5 +1,11 @@
 # https://www.makeuseof.com/integrate-google-authentication-in-nextjs-using-nextauth/ の写経
 
+## .envのキーを書き換えること！
+```
+NEXT_PUBLIC_GOOGLE_CLIENT_ID= 'client ID'
+NEXT_PUBLIC_GOOGLE_CLIENT_SECRET= 'secret'
+```
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

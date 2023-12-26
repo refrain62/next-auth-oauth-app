@@ -12,7 +12,7 @@ export default function Login() {
         <h1 className="title">Create Next App</h1>
         <div>
             <h2>
-                Signed in as {session.user.email} <br />
+                Signed in as {session.user.email} : {session.user.name} <br />
             </h2> 
             <div>
             <button
@@ -32,7 +32,7 @@ export default function Login() {
       </div>
     )
   }
-  
+
   return (
     <div>
         <h1 className="title">Create Next App</h1>
